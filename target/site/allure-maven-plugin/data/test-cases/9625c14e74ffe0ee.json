@@ -1,0 +1,58 @@
+{
+  "uid" : "9625c14e74ffe0ee",
+  "name" : "Sign in from main page",
+  "fullName" : "SignInTest.loginButtonLoginTest",
+  "historyId" : "ca3d9709faef3af4f94d5c6d4a05e34",
+  "time" : {
+    "start" : 1699962837631,
+    "stop" : 1699962843564,
+    "duration" : 5933
+  },
+  "description" : "Check sign in from main page test",
+  "descriptionHtml" : "<p>Check sign in from main page test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "SignInTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginButtonLoginTest"
+  }, {
+    "name" : "suite",
+    "value" : "SignInTest"
+  }, {
+    "name" : "host",
+    "value" : "yshimanskaya"
+  }, {
+    "name" : "thread",
+    "value" : "20832@yshimanskaya.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9625c14e74ffe0ee.json",
+  "parameterValues" : [ ]
+}

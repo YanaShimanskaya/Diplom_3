@@ -1,0 +1,177 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "BurgerConstructorTest",
+    "children" : [ {
+      "name" : "Filling section",
+      "uid" : "bfa4f3768d9baa46",
+      "parentUid" : "c94419ba87fb6b6b14793fac1efe0769",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699962781165,
+        "stop" : 1699962791397,
+        "duration" : 10232
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Bun section",
+      "uid" : "45c7f39e9e517b2b",
+      "parentUid" : "c94419ba87fb6b6b14793fac1efe0769",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699962791556,
+        "stop" : 1699962796099,
+        "duration" : 4543
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Sauces section",
+      "uid" : "8ab85457ffe5bbda",
+      "parentUid" : "c94419ba87fb6b6b14793fac1efe0769",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699962796103,
+        "stop" : 1699962800236,
+        "duration" : 4133
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c94419ba87fb6b6b14793fac1efe0769"
+  }, {
+    "name" : "PersonalAccountTest",
+    "children" : [ {
+      "name" : "Logout from Profile",
+      "uid" : "6b130c0c682e1194",
+      "parentUid" : "cae192261b022c19da1b6b1260cb0189",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699962800242,
+        "stop" : 1699962813936,
+        "duration" : 13694
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Going from profile to Burger constructor",
+      "uid" : "235d7cb11de58f07",
+      "parentUid" : "cae192261b022c19da1b6b1260cb0189",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699962813939,
+        "stop" : 1699962821207,
+        "duration" : 7268
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Going to account profile",
+      "uid" : "bf74811e6ba58fe1",
+      "parentUid" : "cae192261b022c19da1b6b1260cb0189",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699962821211,
+        "stop" : 1699962827419,
+        "duration" : 6208
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cae192261b022c19da1b6b1260cb0189"
+  }, {
+    "name" : "RegistrationTest",
+    "children" : [ {
+      "name" : "Invalid Password registration",
+      "uid" : "cfeaf6b0667b778a",
+      "parentUid" : "69284e8223e4673c9952b238191a3c05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699962827424,
+        "stop" : 1699962832206,
+        "duration" : 4782
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Successful registration new user",
+      "uid" : "a79ff9d5742425ae",
+      "parentUid" : "69284e8223e4673c9952b238191a3c05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699962832211,
+        "stop" : 1699962837626,
+        "duration" : 5415
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "69284e8223e4673c9952b238191a3c05"
+  }, {
+    "name" : "SignInTest",
+    "children" : [ {
+      "name" : "Sign in from main page",
+      "uid" : "9625c14e74ffe0ee",
+      "parentUid" : "daeb3698195cb45b6fb8e9ee49c9fa8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699962837631,
+        "stop" : 1699962843564,
+        "duration" : 5933
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Sing in from Personal Account page",
+      "uid" : "d20b48f038888ece",
+      "parentUid" : "daeb3698195cb45b6fb8e9ee49c9fa8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699962843567,
+        "stop" : 1699962849457,
+        "duration" : 5890
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Sign in from registration page",
+      "uid" : "e2a75f9be45ba4ab",
+      "parentUid" : "daeb3698195cb45b6fb8e9ee49c9fa8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699962849460,
+        "stop" : 1699962855681,
+        "duration" : 6221
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Sign in from reset password page",
+      "uid" : "1ad5fa060e0a02cc",
+      "parentUid" : "daeb3698195cb45b6fb8e9ee49c9fa8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699962855686,
+        "stop" : 1699962861843,
+        "duration" : 6157
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "daeb3698195cb45b6fb8e9ee49c9fa8a"
+  } ]
+}

@@ -1,0 +1,12 @@
+POM\RegistrationPage.class
+Actions\CreateUser.class
+org\example\Main.class
+POM\AuthPage.class
+Actions\AuthentificationPage.class
+Actions\RegistrationPage.class
+DriverConfig\DriverConfig.class
+POM\UserPage.class
+Actions\LoginUser.class
+Actions\User.class
+POM\MainPage.class
+AppConfig\AppConfig.class

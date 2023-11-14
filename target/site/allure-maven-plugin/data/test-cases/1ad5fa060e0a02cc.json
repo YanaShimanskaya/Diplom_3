@@ -1,0 +1,58 @@
+{
+  "uid" : "1ad5fa060e0a02cc",
+  "name" : "Sign in from reset password page",
+  "fullName" : "SignInTest.loginFromPasswordResetPageTest",
+  "historyId" : "60fb501640e1fbfe652e463b67dfcde6",
+  "time" : {
+    "start" : 1699962855686,
+    "stop" : 1699962861843,
+    "duration" : 6157
+  },
+  "description" : "Check sign in from reset password page test",
+  "descriptionHtml" : "<p>Check sign in from reset password page test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "SignInTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginFromPasswordResetPageTest"
+  }, {
+    "name" : "suite",
+    "value" : "SignInTest"
+  }, {
+    "name" : "host",
+    "value" : "yshimanskaya"
+  }, {
+    "name" : "thread",
+    "value" : "20832@yshimanskaya.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ad5fa060e0a02cc.json",
+  "parameterValues" : [ ]
+}

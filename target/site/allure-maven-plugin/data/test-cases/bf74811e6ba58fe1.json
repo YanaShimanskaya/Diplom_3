@@ -1,0 +1,58 @@
+{
+  "uid" : "bf74811e6ba58fe1",
+  "name" : "Going to account profile",
+  "fullName" : "PersonalAccountTest.personalAccountLoginTest",
+  "historyId" : "25db660671a28fdd5b2847654fcd2b10",
+  "time" : {
+    "start" : 1699962821211,
+    "stop" : 1699962827419,
+    "duration" : 6208
+  },
+  "description" : "Successful account profile login test",
+  "descriptionHtml" : "<p>Successful account profile login test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "PersonalAccountTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "personalAccountLoginTest"
+  }, {
+    "name" : "suite",
+    "value" : "PersonalAccountTest"
+  }, {
+    "name" : "host",
+    "value" : "yshimanskaya"
+  }, {
+    "name" : "thread",
+    "value" : "20832@yshimanskaya.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf74811e6ba58fe1.json",
+  "parameterValues" : [ ]
+}

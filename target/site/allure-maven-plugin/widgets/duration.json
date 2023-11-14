@@ -1,0 +1,121 @@
+[ {
+  "uid" : "235d7cb11de58f07",
+  "name" : "Going from profile to Burger constructor",
+  "time" : {
+    "start" : 1699962813939,
+    "stop" : 1699962821207,
+    "duration" : 7268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ab85457ffe5bbda",
+  "name" : "Sauces section",
+  "time" : {
+    "start" : 1699962796103,
+    "stop" : 1699962800236,
+    "duration" : 4133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2a75f9be45ba4ab",
+  "name" : "Sign in from registration page",
+  "time" : {
+    "start" : 1699962849460,
+    "stop" : 1699962855681,
+    "duration" : 6221
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9625c14e74ffe0ee",
+  "name" : "Sign in from main page",
+  "time" : {
+    "start" : 1699962837631,
+    "stop" : 1699962843564,
+    "duration" : 5933
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45c7f39e9e517b2b",
+  "name" : "Bun section",
+  "time" : {
+    "start" : 1699962791556,
+    "stop" : 1699962796099,
+    "duration" : 4543
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ad5fa060e0a02cc",
+  "name" : "Sign in from reset password page",
+  "time" : {
+    "start" : 1699962855686,
+    "stop" : 1699962861843,
+    "duration" : 6157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d20b48f038888ece",
+  "name" : "Sing in from Personal Account page",
+  "time" : {
+    "start" : 1699962843567,
+    "stop" : 1699962849457,
+    "duration" : 5890
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfeaf6b0667b778a",
+  "name" : "Invalid Password registration",
+  "time" : {
+    "start" : 1699962827424,
+    "stop" : 1699962832206,
+    "duration" : 4782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b130c0c682e1194",
+  "name" : "Logout from Profile",
+  "time" : {
+    "start" : 1699962800242,
+    "stop" : 1699962813936,
+    "duration" : 13694
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf74811e6ba58fe1",
+  "name" : "Going to account profile",
+  "time" : {
+    "start" : 1699962821211,
+    "stop" : 1699962827419,
+    "duration" : 6208
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfa4f3768d9baa46",
+  "name" : "Filling section",
+  "time" : {
+    "start" : 1699962781165,
+    "stop" : 1699962791397,
+    "duration" : 10232
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a79ff9d5742425ae",
+  "name" : "Successful registration new user",
+  "time" : {
+    "start" : 1699962832211,
+    "stop" : 1699962837626,
+    "duration" : 5415
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
