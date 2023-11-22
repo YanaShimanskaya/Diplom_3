@@ -1,4 +1,4 @@
-package Actions;
+package actions;
 
 public class CreateUser {
     private final String email;
@@ -18,6 +18,7 @@ public class CreateUser {
     public String getPassword() {
         return password;
     }
+
     public String getName() {
         return name;
     }

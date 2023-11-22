@@ -1,18 +1,20 @@
-import Actions.LoginUser;
-import Actions.RegistrationPage;
-import Actions.User;
-import io.restassured.RestAssured;
+import actions.LoginUser;
+import actions.User;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
+import io.restassured.RestAssured;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import static AppConfig.AppConfig.*;
-import static DriverConfig.DriverConfig.GET_DRIVER_CONFIG;
-import static POM.AuthPage.SIGN_IN_BUTTON;
-import static POM.RegistrationPage.INVALID_PASS;
+import pom.RegistrationPage;
+
+import static app.config.AppConfig.*;
+
+import static driver.config.DriverConfig.GET_DRIVER_CONFIG;
 import static org.junit.Assert.assertEquals;
+import static pom.AuthPage.SIGN_IN_BUTTON;
+import static pom.RegistrationPage.INVALID_PASS;
 
 public class RegistrationTest {
     private WebDriver webDriver;

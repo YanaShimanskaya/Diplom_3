@@ -1,20 +1,22 @@
-import Actions.AuthentificationPage;
-import Actions.CreateUser;
-import Actions.LoginUser;
-import Actions.User;
+import actions.CreateUser;
+import actions.LoginUser;
+import actions.User;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import static AppConfig.AppConfig.*;
-import static DriverConfig.DriverConfig.GET_DRIVER_CONFIG;
-import static POM.AuthPage.SIGN_IN_BUTTON;
-import static POM.MainPage.*;
-import static POM.UserPage.EXIT_BUTTON;
-import static POM.UserPage.SAVE_BUTTON;
+import pom.AuthPage;
+
+import static app.config.AppConfig.*;
+import static driver.config.DriverConfig.GET_DRIVER_CONFIG;
 import static org.junit.Assert.assertEquals;
+import static pom.AuthPage.SIGN_IN_BUTTON;
+import static pom.MainPage.*;
+import static pom.UserPage.EXIT_BUTTON;
+import static pom.UserPage.SAVE_BUTTON;
+
 
 public class PersonalAccountTest {
     private WebDriver webDriver;
@@ -25,7 +27,7 @@ public class PersonalAccountTest {
         webDriver = GET_DRIVER_CONFIG();
         User.newUser(new CreateUser(EMAIL, PASSWORD, NAME));
         userToken = User.getUserToken(new LoginUser(EMAIL, PASSWORD));
-        AuthentificationPage authenticationPage = new AuthentificationPage(webDriver);
+        AuthPage authenticationPage = new AuthPage(webDriver);
         webDriver.findElement(ACCOUNT_SIGNIN_BUTTON).click();
         authenticationPage.loginFromMainPage(EMAIL, PASSWORD);
     }

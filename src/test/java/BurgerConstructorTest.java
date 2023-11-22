@@ -7,11 +7,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.time.Duration;
-import static AppConfig.AppConfig.*;
-import static DriverConfig.DriverConfig.GET_DRIVER_CONFIG;
-import static POM.MainPage.*;
+
+import static app.config.AppConfig.*;
+
+import static driver.config.DriverConfig.GET_DRIVER_CONFIG;
 import static org.junit.Assert.assertEquals;
+import static pom.MainPage.*;
 
 public class BurgerConstructorTest {
     private WebDriver webDriver;

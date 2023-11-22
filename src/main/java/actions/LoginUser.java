@@ -1,4 +1,4 @@
-package Actions;
+package actions;
 
 public class LoginUser {
     private final String email;

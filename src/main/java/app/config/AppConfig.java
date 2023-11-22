@@ -1,4 +1,4 @@
-package AppConfig;
+package app.config;
 
 public class AppConfig {
     public static final String YANDEX_BIN_PATH = "C:\\Users\\yshimanskaya\\Downloads\\Yandex.exe";
@@ -15,7 +15,7 @@ public class AppConfig {
     public static final String EXPECTED_FILLING_SECTION_TEXT = "Начинки";
     public static final String EXPECTED_SAUCES_SECTION_TEXT = "Соусы";
     public static final String EXPECTED_BUN_SECTION_TEXT = "Булки";
-    public static final  String EXPECTED_SAVE_BUTTON_TEXT = "Сохранить";
+    public static final String EXPECTED_SAVE_BUTTON_TEXT = "Сохранить";
     public static final String EXPECTED_MAKE_BURGER_TEXT = "Соберите бургер";
 
 }
