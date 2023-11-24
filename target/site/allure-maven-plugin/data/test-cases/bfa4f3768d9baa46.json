@@ -1,0 +1,58 @@
+{
+  "uid" : "bfa4f3768d9baa46",
+  "name" : "Filling section",
+  "fullName" : "BurgerConstructorTest.goingToFillingSectionTest",
+  "historyId" : "52db1e81e55e7fcc049012518aee0eb9",
+  "time" : {
+    "start" : 1699962781165,
+    "stop" : 1699962791397,
+    "duration" : 10232
+  },
+  "description" : "Going to FILLING section test",
+  "descriptionHtml" : "<p>Going to FILLING section test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "BurgerConstructorTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "goingToFillingSectionTest"
+  }, {
+    "name" : "suite",
+    "value" : "BurgerConstructorTest"
+  }, {
+    "name" : "host",
+    "value" : "yshimanskaya"
+  }, {
+    "name" : "thread",
+    "value" : "20832@yshimanskaya.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bfa4f3768d9baa46.json",
+  "parameterValues" : [ ]
+}
